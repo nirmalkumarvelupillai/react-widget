@@ -65,7 +65,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "serve": "lite-server --baseDir='build'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -136,5 +137,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
   }
 }
